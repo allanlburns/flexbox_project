@@ -8,12 +8,27 @@
 <body>
 	<nav class="navbar">
 		<div class="brand">Code<span class="sensei">Sensei</span></div>
-		<ul class="topnav">
+		<ul class="topnav responsive" id="navbar-toggle">
 			<li><a class="nav-link" href="#">Home</a></li>
 			<li><a class="nav-link" href="#">Products</a></li>
 			<li><a class="nav-link" href="#">About Us</a></li>
 			<li><a class="nav-link" href="#">Contact Us</a></li>
+			<li class="dropdownLink"><a onclick="toggleDropdown()" href="">&#9776;</a></li>
 		</ul>
 	</nav>
+
+	<header>
+		<div class="headshot-wrapper">
+			<img class="headshot" src="#" alt="profile picture">
+			<h1>Allan Burns</h1>
+		</div>
+	</header>
+
+
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+	<script type="text/javascript" src="main.js"></script>
 </body>
 </html>
