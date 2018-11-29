@@ -9,13 +9,16 @@ html, body {
 	margin: 0;
 }
 
-.navbar {
-	display: flex;
-	padding: 10px;
+.navbar, .container {
 	max-width: 1140px;
 	width: 100%;
 	margin: 0 auto;
-	justify-content: space-between;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;	
+	padding: 10px;
 }
 
 .brand, .nav-link, a {
@@ -69,6 +72,44 @@ header {
 .services {
 	background-color: #F1F3FA;
 	padding: 4rem 1rem;
+}
+
+.media-object {
+	display: flex;
+	align-items: center;
+	padding: 4rem 1rem;
+
+}
+
+.icon-left, .icon-right {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+}
+
+.blurb-wrapper-right, .blurb-wrapper-left {
+	flex: 1;
+}
+
+.icon-left, .blurb-wrapper-left {
+	order: 1;
+}
+
+.icon-right, .blurb-wrapper-right {
+	order: 2;
+}
+
+.icon {
+	width: 180px;
+}
+
+.blurb-wrapper {
+	flex: 1;
+}
+
+.blurb-info {
+	color: #646B90;
+	font-size: 18px;
 }
 
 @media (max-width: 768px) {
