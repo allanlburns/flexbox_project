@@ -194,6 +194,20 @@ header {
 		text-align: center;
 	}
 
+	.media-object {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.icon-right, .icon-left {
+		order: 1;
+	}
+
+	.blurb-wrapper-left, .blurb-wrapper-right {
+		order: 2;
+		padding-top: 2rem;
+	}
+
 }
 
 @media (max-width: 599px) {
